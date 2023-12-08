@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.absolutee {
+  position: absolute;
+  top: 50%; /* Start at the center of the parent */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust to center exactly */
+  z-index: 30;
+}
+
+
+
+
+
+
+/* CSS */
+.button-55 {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+/* Hide scrollbar (for Webkit and Firefox) */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Webkit browsers */
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@keyframes smoothBrightnessPulse {
+  0%, 100% {
+    filter: brightness(100%);
+  }
+  50% {
+    filter: brightness(200%);
+  }
+}
+
+.animate-smooth-brightness {
+  animation: smoothBrightnessPulse 2s ease-in-out infinite;
+}
+
+.pulse-bg-dark {
+  background-color: rgba(255, 255, 255, 0.043); /* Subtle gray on black background */
+}
+
+
