@@ -42,6 +42,6 @@ export const getSearchNovieUrl = (query) =>
 
 
 export const openai = new OpenAI({
-  apiKey: "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",
+  apiKey: "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",
   dangerouslyAllowBrowser: true,
 });
