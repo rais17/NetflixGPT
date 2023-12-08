@@ -10,7 +10,7 @@ const MoreVideos = ({title}) => {
       <h1 className="flex items-center font-sans text-2xl font-normal text-gray-300 sm:text-3xl gap-x-2">
         Videos<span className='text-xl font-light text-gray-400 sm:font-2xl'>{"| "}{title}</span>
       </h1>
-      <div className="flex flex-wrap justify-center w-full gap-2">
+      <div className="flex flex-wrap xxs:max-sm:justify-center w-full gap-2">
         {allVideos?.map((miniClip) => {
           return (
             <BackGroundVideo
