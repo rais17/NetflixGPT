@@ -31,7 +31,7 @@ const Header = () => {
       }`}
     >
       <Link to="/browse" style={{ display: "contents" }}>
-        <div className="at900:max-w-[230px] max-w-[180px]">
+        <div className="at900:max-w-[230px] max-w-[130px] at460:max-w-[180px]">
           <img src={NetflixGPT} alt="logo" />
         </div>
       </Link>
