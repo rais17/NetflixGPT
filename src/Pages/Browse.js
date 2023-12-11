@@ -13,7 +13,7 @@ const Browse = () => {
   return (
     <div className="w-full bg-black ">
       <PrimaryContainer isDataLoaded={isDataLoaded} />
-      {!isDataLoaded ? <ShimmerMovies className={`-mt-16`} /> : <SecondaryContainer />}
+      {!isDataLoaded ? <ShimmerMovies className={`md:-mt-16`} /> : <SecondaryContainer />}
     </div>
   );
 }
