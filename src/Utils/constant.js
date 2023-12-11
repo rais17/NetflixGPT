@@ -42,6 +42,6 @@ export const getSearchNovieUrl = (query) =>
 
 
 export const openai = new OpenAI({
-  apiKey: "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",
+  apiKey: process.env.REACT_APP_GPT_API_KEY,
   dangerouslyAllowBrowser: true,
 });
